@@ -7,7 +7,7 @@
 }
 
 ::selection {
-    background-color: rgb(237,27,36);
+    background-color: rgb(192, 93, 93);
 }
 
 #glavniNaslov {
@@ -78,16 +78,21 @@ nav ul input:focus {
     transition: .3s;
 }
 
-.gSadrzaj {
-    padding: 50px;
-    text-align: justify;
-    font-size: 20px;
+.aktivanLink {
+    background-color: rgb(223, 140, 144);
+    border-radius: 25px;
 }
 
 .sadrzaj {
     background-color: lightgray;
     margin: 10px;
     border-radius: 15px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.sadrzaj p {
+    padding: 25px;
 }
 
 .naslov {
@@ -95,15 +100,6 @@ nav ul input:focus {
     padding: 10px 25px;
     border-radius: 15px 15px 0px 0px;
     user-select: none;
-}
-
-.sadrzaj p {
-    padding: 25px;
-}
-
-.sadrzaj .sadrzaj2 .slika {
-    width: 500px;
-    flex: 0 0 500px;
 }
 
 #lok {

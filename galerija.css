@@ -1,0 +1,9 @@
+.sadrzaj img {
+    height: 451px;
+    border-radius: 25px;
+    user-select: none;
+}
+
+#panorama {
+    width: 100%;
+}
