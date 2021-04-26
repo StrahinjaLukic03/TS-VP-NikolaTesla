@@ -92,7 +92,7 @@ nav ul input:focus {
 }
 
 .sadrzaj p {
-    padding: 25px;
+    padding: 0px 25px 25px 25px;
 }
 
 .naslov {
@@ -102,14 +102,30 @@ nav ul input:focus {
     user-select: none;
 }
 
-#lok {
+.oon {
+    background-color: rgb(192, 93, 93);
+}
+
+.oo {
+    background-color: rgb(221, 172, 172);
+}
+
+.oon2 {
+    background-color: rgb(192, 182, 93);
+}
+
+.oo2 {
+    background-color: rgb(221, 212, 172);
+}
+
+#link {
     color: rgb(237,27,36);
     text-decoration: none;
     transition: .3s;
     user-select: none;
 }
 
-#lok:hover {
+#link:hover {
     text-decoration: underline;
     text-shadow: lightcoral 0px 0px 3px;
     transition: .3s;
