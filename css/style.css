@@ -1,0 +1,84 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    outline: none;
+    font-family: Nunito, Calibri;
+}
+
+::selection {
+    background-color: rgb(192, 93, 93);
+}
+
+.oklopSadrzaja {
+    margin: 30px 7px;
+    border-radius: 25px;
+}
+
+.sadrzaj {
+    background-color: lightgray;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 20px;
+    text-align: justify;
+    display: flex;
+    position: relative;
+}
+
+.sadrzaj p {
+    padding: 0px 25px 25px 25px;
+}
+
+.naslov {
+    background-color: rgb(180, 180, 180);
+    padding: 10px 25px;
+    border-radius: 15px 15px 0px 0px;
+    user-select: none;
+    margin: 0px 0px 0px 0px;
+}
+
+.oon {
+    background-color: rgb(192, 93, 93);
+}
+
+.oo {
+    background-color: rgb(221, 172, 172);
+}
+
+.oon2 {
+    background-color: rgb(192, 182, 93);
+}
+
+.oo2 {
+    background-color: rgb(221, 212, 172);
+}
+
+#link {
+    color: rgb(237,27,36);
+    text-decoration: none;
+    transition: .3s;
+}
+
+#link:hover {
+    text-decoration: underline;
+    text-shadow: lightcoral 0px 0px 3px;
+    transition: .3s;
+}
+
+footer {
+    text-align: center;
+    background-color: lightgray;
+    width: auto;
+    position: sticky;
+    border-radius: 15px;
+    margin: 20px 5px;
+    padding: 1px;
+    font-size: 17px;
+    user-select: none;
+}
+
+.slika {
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px;
+    user-select: none;
+}

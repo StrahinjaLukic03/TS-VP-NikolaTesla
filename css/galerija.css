@@ -1,0 +1,21 @@
+.slikeGeneralno {
+    height: 451px;
+    border-radius: 25px;
+    user-select: none;
+}
+
+.sadrzajPanorama {
+    background-color: lightgray;
+    border-radius: 0px 0px 15px 15px;
+    font-size: 20px;
+    text-align: justify;
+    display: grid;
+    padding: 0px 25px 0px 25px;
+}
+
+#panorama {
+    width: 100%;
+    border-radius: 25px;
+    user-select: none;
+    display: grid;
+}
