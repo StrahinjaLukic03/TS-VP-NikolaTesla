@@ -35,13 +35,12 @@ nav ul li a {
     color: black;
     text-align: center;
     display: block;
-    transition: .3s;
+    transition: background-color .3s, border-radius .3s;
 }
 
 nav ul li a:hover {
     background-color: rgb(224, 72, 80);
     border-radius: 25px;
-    transition: .3s;
 }
 
 nav ul img {
@@ -58,12 +57,11 @@ nav ul input {
     border-radius: 15px;
     border: solid 2px gray;
     font-size: 15px;
-    transition: .3s;
+    transition: border-color .3s;
 }
 
 nav ul input:focus {
     border-color: rgb(237,27,36);
-    transition: .3s;
 }
 
 .aktivanLink {

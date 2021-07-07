@@ -55,13 +55,12 @@
 #link {
     color: rgb(237,27,36);
     text-decoration: none;
-    transition: .3s;
+    transition: text-decoration .3s, text-shadow .3s;
 }
 
 #link:hover {
     text-decoration: underline;
     text-shadow: lightcoral 0px 0px 3px;
-    transition: .3s;
 }
 
 footer {
