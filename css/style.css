@@ -6,6 +6,10 @@
     font-family: Nunito, Calibri;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ::selection {
     background-color: rgb(192, 93, 93);
 }
