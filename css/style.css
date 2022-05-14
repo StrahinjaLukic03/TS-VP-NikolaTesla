@@ -30,6 +30,7 @@ html {
 
 .sadrzaj p {
     padding: 0px 25px 25px 25px;
+    text-align: justify;
 }
 
 .naslov {
@@ -84,6 +85,15 @@ footer {
     border-radius: 20px;
     margin: 20px;
     user-select: none;
+    float: left;
+}
+
+.slika iframe {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    user-select: none;
+    float: left;
 }
 
 .vecaSlika {
@@ -91,6 +101,7 @@ footer {
     border-radius: 20px;
     margin: 20px;
     user-select: none;
+    float: left;
 }
 
 .button {
@@ -106,7 +117,7 @@ footer {
     transition: box-shadow .3s, transform .3s;
 }
 
-.button:hover, :focus {
+.button:hover, .button:focus {
     box-shadow: 0px 5px lightcoral;
 }
 
